@@ -12,6 +12,7 @@ CONFIG += c++11
 SOURCES += \
     Dog.cpp \
     DogValidator.cpp \
+    MyModel.cpp \
     Storage.cpp \
     filedownloader.cpp \
     main.cpp \
@@ -23,6 +24,7 @@ HEADERS += \
     Dog.h \
     DogValidator.h \
     DynamicVector.h \
+    MyModel.h \
     Repository.h \
     RepositoryException.h \
     RepositorySTL.h \

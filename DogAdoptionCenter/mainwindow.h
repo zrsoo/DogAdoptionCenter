@@ -8,6 +8,7 @@
 #include <QLabel>
 #include "filedownloader.h"
 #include "Storage.h"
+#include "MyModel.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -59,6 +60,7 @@ private:
 
     QTableView* adoptionView = new QTableView();
     QStandardItemModel* adoptionModel = new QStandardItemModel(1, 5, adoptionView);
+    //MyModel* adoptionModel = new MyModel(adoptionView);
 
     int ind = 0;
     QLabel* pic = new QLabel("LABEL");
